@@ -1,0 +1,199 @@
+*{margin:0px; padding:0px;}
+body{background-color:#f2f3f4; }
+
+#clearfix{
+clear:both;
+}
+#customcontainer{
+width:80%; background:#fff; height:auto; box-shadow: -1px 0px 10px 5px rgba(0,0,0,0.33);
+}
+
+
+#topbar{background:#4d4d4d; }
+#topbar p{padding:5px; color:#fff; margin-top:5px; font-family:tahoma;}
+#topbar a{ float:right;}
+#topbar img {padding:5px; width:90%;}
+
+#header{margin-left:0px; margin-right:0px; background:#fff;}
+
+#logo {margin:0px; padding:0px;}
+#logo img{width:80%; }
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+#menu-wrap {margin-top:10px; margin-left:-30px; margin-right:-30px;}
+#wrapper {margin-left:0px; margin-right:0px; background:#fff;}
+
+.left {float:left;}
+
+
+
+/* Code for part1 */
+#content{height:auto;}
+
+
+/* Code for first_col */
+#footer_area{margin:0px;}
+
+#end{margin-left:-15px; margin-right:-15px; background:#31A162; height:80px;}
+#end p{color:#fff; text-align:center; font-size:15px; font-family:verdana; line-height:37px;}
+
+
+
+
+/* Sidebar_Menu  */
+
+#sidebar_menu{
+border-radius:5px; margin-top:35px;
+}
+#sidebar_menu h3{ padding:15px; color:#fff; font-size:18px; background:#ff6666; border-radius:5px;}
+#sidebar_menu ul {display:block; list-style:none;}
+#sidebar_menu  li a{ padding:10px; display:block; color:#1F3D7A; line-height:30px; text-decoration:none;
+font-family:times new roman; font-size:21px; background:#ffffe7; border-bottom:1px solid #ffb2b2;}
+
+
+#sidebar_menu ul li a:hover{ color:#4885C2; box-shadow: -2px -6px 20px 0px rgba(0, 0, 0, 0.11) inset; text-decoration:none;}
+
+#sidebar_menu img {margin-top:40px; margin-left:-10px;}
+
+
+/* About Us */
+
+
+
+
+
+/*Donor Registration*/
+
+#donor a {margin-left:30px; margin-top:30px; margin-bottom:10px; padding:0px;
+display:inline-block; text-align:center; line-height:45px; width:80%; color:#fff; background:#098faa;
+height:50px; text-decoration:none; font-family:'ek mukta'; font-size:25px; border-radius:20px;
+}
+#donor a:hover{background-color:#cccccc; color:navy;}
+
+
+
+
+
+
+#quick {color:#fff; z-index:1; background-color:#000;  -moz-opacity:.30; height:310px; opacity:.55;}
+#quick h3 {margin-top:40px; color:#fff; font-family:times new roman;}
+#quick a {line-height:28px; text-decoration:none; color:#fff; font-family:Ek Mukta; font-size:18px;}
+#quick a:hover {color:#ffff9f;}
+
+
+
+
+
+#last {background-image:url(../images/lp.jpg); padding-right:0px; padding-left:0px; margin-top:30px;
+width:100%;}
+
+
+
+
+
+
+#social img {width:40%;}
+#social a{margin-left:-30px; margin-right:-30px;}
+
+
+/* About Us */
+
+#mission h3 {margin-top:36px; background-color:#e6e6e6; color:#e60000; padding:10px; }
+#mission p {margin-top:20px; text-align:justify; font-size:19px; color:#4d4d4d; line-height:38px; font-family:'ek mukta';}
+
+#vol img {padding:10px; margin-top:45px; width:100%; 
+-webkit-box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.33); 
+box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.33);}
+
+
+
+#feature ul {padding:20px;}
+#feature ul li {font-family:'ek mukta'; font-size:20px; color:#4d4d4d; line-height:33px; text-align:justify;}
+
+
+
+
+#feature2 ul {padding:20px; margin-left:30px;}
+#feature2 ul li {font-family:'ek mukta'; font-size:20px; color:#4d4d4d; line-height:33px; text-align:justify;}
+#feature ul li p {text-align:justify;}
+
+.message {border:2px solid #A40707; color:#FFFFFF;; font-size:1.4em; padding:1em; font-weight:bold; width:auto; text-align:center; background:#00B3FF;}
+
+
+
+
+
+/* Before Donation */
+
+#donation h3 {margin-top:36px; background-color:#e6e6e6; color:#e60000; padding:15px; border-radius:40px;}
+#donation ul {padding:20px;}
+#donation ul li {font-family:'ek mukta'; font-size:20px; color:#4d4d4d; line-height:33px; text-align:justify;}
+
+
+
+
+
+/* Rules */
+#rules h1 {margin-top:33px;}
+#rules h2 {margin-top:70px; color:red;}
+#rules p {margin-top:50px; font-size:17px; text-align:justify; line-height:32px;}
+#rules h3 {margin-top:50px; background-color:#e6e6e6; color:#e60000; padding:20px; font-size:26px;}
+#rules img {margin:45px 0px 0px 20px;  width:100%;}
+
+
+
+
+
+
+/* tblwstyle */
+
+#tblwstyle {
+	margin-top:10px;
+	width:90%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-bottom:100px;
+}
+#tblwstyle th { 
+	padding:10px;
+    color: white;
+    background-color:#333333;
+}
+#tblwstyle td  {
+	text-align:center;
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding:10px;
+	
+}
+
+#tblwstyle tr:nth-child(even) {
+    background-color:#ffffcf;
+	color: red;
+}
+#tblwstyle tr:nth-child(odd) {
+    background-color: #e6e6e6;
+	color: red;
+}
+
+
+/* Latest Members */
+.donor1 {margin-left:25px;}
+.donor1 h3 {margin-top:90px; padding:15px; background:#4d4d4d; color:#fff; border-radius:0 40px 0 0;   
+ box-shadow: 1px 2px 6px rgba(0, 0, 0, .5);}
+
+ 
+.patient1 {margin-left:50px;}
+.patient1 h3 {margin-top:90px; padding:15px; background:#4d4d4d; color:#fff; border-radius:0 40px 0 0;   
+box-shadow: 1px 2px 6px rgba(0, 0, 0, .5);}
+
+
+
+
+
+
+

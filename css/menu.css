@@ -1,0 +1,15 @@
+
+
+
+.navbar-inverse .navbar-nav .dropdown-menu>li>a, .navbar-inverse .navbar-nav .dropdown-menu 
+{ background-color:#222222; color:#EBE; font-size:15px; line-height:25px; }
+.navbar-inverse .navbar-nav .dropdown-menu>li>a:hover{background-color:#3F3C3C; color:#FFFFFF;}
+.navbar-inverse .navbar-nav { height:auto; padding:0px;}
+.navbar-inverse .navbar-nav .dropdown-menu { height: auto; max-height: 400px; overflow-x: hidden; color:red;}
+.navbar {margin:0; background:#4d4d4d;}
+ 
+ 
+ 
+ 
+ 
+ 

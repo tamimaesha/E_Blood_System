@@ -1,0 +1,39 @@
+
+ .page_info{
+ 
+ font-family:Arial, Helvetica, sans-serif;
+ text-align:center;
+ float:inherit;
+ color:#3498db;
+ text-decoration:bold;
+ padding-top:5px;
+ padding-right:15px;
+ 
+ }
+.wrap { text-align:center; line-height:21px; padding:20px; }
+
+/* For pagination function. */
+ul.pagination {
+    text-align:center;
+    color:#829994;
+}
+ul.pagination li {
+    display:inline;
+   /* padding:10px 30px; */
+	text-decoration:bold;
+	font-family:verdana;
+	color:red;
+}
+ul.pagination a {
+    color:#0d7963;
+    display:inline-block;
+    /*padding:5px 10px;*/
+    border:1px solid #cde0dc;
+    text-decoration:none;
+	float:inherit;
+}
+ul.pagination a:hover,
+ul.pagination a.current {
+    background:#e03121;
+    color:#fff;
+}

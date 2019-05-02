@@ -1,0 +1,1 @@
+<div class="col-md-12" style="padding:12px; text-align:center; background:#191919; color:#cccccc;"><p style="font-size:15px;">All Rights Reserved || Copyright 2016</p></div>
